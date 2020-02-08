@@ -18,3 +18,4 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('home');
 
 Route::get('/home', 'PostController@index')->name('post');
+Route::get('/cat', 'PostController@cat')->name('cat');
